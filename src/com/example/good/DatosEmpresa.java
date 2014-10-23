@@ -3,11 +3,11 @@ package com.example.good;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class AdminSeciones extends Activity {
+public class DatosEmpresa extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.admin_seciones);
+		setContentView(R.layout.datos_empresa);
 	}
 }

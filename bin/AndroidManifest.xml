@@ -49,6 +49,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
+        
         <activity
             android:name=".Unidades"
             android:label="@string/title_activity_unidades" >
@@ -58,21 +60,27 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        
-        <activity
-            android:name=".AdminSeciones"
-            android:label="@string/title_activity_admin_seciones" >
-        </activity>
-        
+
+
         <activity
             android:name=".AdminSecciones"
             android:label="@string/title_activity_admin_seciones" >
-            <intent-filter >
+            <intent-filter>
                 <action android:name="android.intent.action.AdminSecciones" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-            
+        </activity>
+        
+        
+        <activity
+            android:name=".DatosEmpresa"
+            android:label="@string/title_activity_datos_empresa" >
+            <intent-filter >
+               <action android:name="android.intent.action.DatosEmpresa" />
+
+                <category android:name="android.intent.category.DEFAULT" /> 
+            </intent-filter>
         </activity>
     </application>
 

@@ -32,7 +32,7 @@
     <string name="costo">Cta. Costo:</string>
     <string name="cretencion">Cta. Retencion:</string>
     <string name="codigo">Codigo:</string>
-    <string name="puntos">(…, &#8230;)</string>
+    <string name="puntos">&#8230;</string>
     <string name="orientacion">Orientacion:</string>
     <string name="editar">EDITAR</string>
     <string name="eliminar">ELIMINAR</string>
@@ -63,5 +63,15 @@
     <string name="title_activity_admin_seciones">AdminSeciones</string>
     <string name="almacen">Almacen:</string>
     <string name="nseccion">Nombre de la seccion:</string>
+    <string name="title_activity_datos_empresa">Datos de la Empresa</string>
+    <string name="nit">Nit:</string>
+    <string name="nempresa">Razon social:</string>
+    <string name="direccion">Direccion:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="representante">Representante legal:</string>
+    <string name="contador">Contador:</string>
+    <string name="rfiscal">Revisor fiscal:</string>
+    <string name="regimen">Regimen:</string>
+    <string name="actycomencial">Actividad comercial:</string>
 
 </resources>
