@@ -61,5 +61,7 @@
     <string name="cod">Codigo</string>
     <string name="dta">Descripcion</string>
     <string name="title_activity_admin_seciones">AdminSeciones</string>
+    <string name="almacen">Almacen:</string>
+    <string name="nseccion">Nombre de la seccion:</string>
 
 </resources>

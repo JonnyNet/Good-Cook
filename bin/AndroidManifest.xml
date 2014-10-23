@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="20" />
+        android:targetSdkVersion="21" />
 
     <application
         android:allowBackup="true"
@@ -58,9 +58,21 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
         <activity
             android:name=".AdminSeciones"
             android:label="@string/title_activity_admin_seciones" >
+        </activity>
+        
+        <activity
+            android:name=".AdminSecciones"
+            android:label="@string/title_activity_admin_seciones" >
+            <intent-filter >
+                <action android:name="android.intent.action.AdminSecciones" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
         </activity>
     </application>
 
