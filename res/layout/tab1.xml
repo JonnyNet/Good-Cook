@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" > 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="@string/adminmesa" 
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/imgadminmesa" 
+        android:layout_marginTop="40dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TableRow
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:text="@string/nombre"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            
+            <EditText 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nombre"
+                android:inputType="text"
+                android:layout_weight="9"
+                android:background="@drawable/editextselec"
+                android:textSize="25sp"/>
+        </TableRow>
+        
+        <TableRow
+            android:weightSum="10"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/seccion"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            
+            <EditText 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seccion"
+                android:inputType="text"
+                android:layout_weight="9"
+                android:background="@drawable/editextselec"
+                android:textSize="25sp"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:weightSum="3"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+        
+         <Button android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/nuevo"
+             android:id="@+id/btnnuevo"
+             android:layout_weight="1"
+             style="@style/btnstyle"/>
+         
+          <Button android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/guardar"
+             android:id="@+id/btnguardar"
+             android:layout_weight="1"
+             style="@style/btnstyle"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"/>
+          
+           <Button android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/cancelar"
+             android:id="@+id/btncancelar"
+             android:layout_weight="1"
+             style="@style/btnstyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Good</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo">logo app</string>
+    <string name="adminmesa">ADMINISTRACION DE MESAS</string>
+    <string name="nombre">Nombre:</string>
+    <string name="imgadminmesa">Imagen administracion de mesa</string>
+    <string name="seccion">Seccion</string>
+    <string name="nuevo">NUEVO</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="actualizacion">ACTUALIZACION DATOS USUARIO</string>
+    <string name="activo">Activo</string>
+    <string name="usuario">Usuario</string>
+    <string name="cambbiarpass">Cambiar Contraseña</string>
+    <string name="abreviacion">Abreviacion</string>
+    <string name="cuetcontable">Cuenta Contable</string>
+    <string name="adminpagos">ADMINISTRACION DE FORMAS DE PAGOS</string>
+    <string name="impuesto">Impuestos</string>
+    <string name="iva">% Iva:</string>
+    <string name="retencion">Retencion:</string>
+    <string name="basereten">Base retencion:</string>
+    <string name="mensaje1">Aplica solo a platos y bebidas fabricadas</string>
+    <string name="contabilidad">Contabilidad</string>
+    <string name="compra">Cta. Compra:</string>
+    <string name="venta">Cta. Venta:</string>
+    <string name="ivacompra">Cta. IVA Compra:</string>
+    <string name="ivaventa">Cta. IVA Venta:</string>
+    <string name="costo">Cta. Costo:</string>
+    <string name="cretencion">Cta. Retencion:</string>
+    <string name="codigo">Codigo:</string>
+    <string name="puntos">(…, &#8230;)</string>
+    <string name="orientacion">Orientacion:</string>
+    <string name="editar">EDITAR</string>
+    <string name="eliminar">ELIMINAR</string>
+    <string name="salir">SALIR</string>
+    <string name="nomplato">Nombre plato:</string>
+    <string name="tituloup">Cabecera titulo:</string>
+    <string name="titulodown">Pie titulo:</string>
+    <string name="intercont">Interfaz contable:</string>
+    <string name="linea">Linea:</string>
+    <string name="sublinea">Sublinea:</string>
+    <string name="preciov">Precio venta:</string>
+    <string name="ivap">Iva:</string>
+    <string name="categoria">Categoria:</string>
+    <string name="platotrue">Plato activo</string>
+    <string name="nombreproducto">Nombre del insumo:</string>
+    <string name="referencia">Referencia:</string>
+    <string name="unidad">Unidad:</string>
+    <string name="codbarra">Codigo de barra:</string>
+    <string name="Ultimocosto">Ultimo costo:</string>
+    <string name="balanza">Usa balanza</string>
+    <string name="title_activity_unidades">Unidades</string>
+    <string name="factor">Factor:</string>
+    <string name="equivalencia">Equivalencia:</string>
+    <string name="padre">Padre:</string>
+    <string name="info">Info detallada</string>
+    <string name="cod">Codigo</string>
+    <string name="dta">Descripcion</string>
+    <string name="title_activity_admin_seciones">AdminSeciones</string>
+
+</resources>
